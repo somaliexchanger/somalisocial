@@ -656,7 +656,7 @@ margin: 10px 0;
 
 /* web Responsive */
 
-@media (max-width:600px){
+@media (min-width:412px) and (max-width:914px) {
  .nav ul{
     display: flex;
     flex-direction: column;
@@ -777,8 +777,8 @@ nav ul li a{
     border: none;
     background: rgb(238, 227, 227);
     position: absolute;
-    left: -26%;
-    width: 100%;
+    left: 2%;
+    width: 10%;
     }
     .cb{
         position: absolute;
@@ -827,6 +827,9 @@ nav ul li a{
         flex-wrap: wrap;
         width: 60%;
     }
+    .between p{
+        font-size: 0.8rem;
+    }
     #footer {
         font-size: 0.8rem;
         background: #8c00ff;
@@ -845,4 +848,196 @@ nav ul li a{
         display: block;
     }
 
+
 }
+/* cabir ka  qaybta 600 boqol  px ka  */
+@media (max-width:600px){
+    .nav ul{
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       top: 104%;
+       z-index: 1;
+       left: -9%;
+       background: #ff4800;
+       padding: 30px;
+       width: 50%;
+       font-size: 2rem;
+       
+       
+   }
+   
+   nav ul li a{
+       color: rgb(245, 236, 236);
+       cursor: pointer;
+     
+   }
+   .logo{
+       font-size: 0.5rem;
+       display: flex;
+       width: 30%;
+   }
+   .nav{
+       display: none;
+   }
+   .shownav{
+       display: block;
+   }
+   .menu i{
+       position: absolute;
+      right: 5%;
+      font-size: 2.3rem;
+      top: 3%;
+   }
+   .menu .fa-times{
+       display: none;
+   }
+   .fa-times.showclose{
+       display: block;
+   }
+   .header-text h1{
+       font-size: 2.5rem;
+       margin: 15px 0;
+   
+   }
+   .header-text button{
+       margin: 15px 0;
+       width: 50%;
+       border-radius: 5px;
+       padding: 15px;
+   }
+   .sec1{
+       width: 100%;
+   }
+   .sec-text1{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   .sec-text1 p{
+       margin-left: 10%;
+   }
+   .latest-blog{
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+   }
+   .latest-blog .lbm{
+       width:100%;
+       z-index: -1;
+       transition: transform 2s ;
+       }
+       .blog{
+           width: 100%;
+           display: flex;
+           flex-direction: column;
+           flex-wrap: wrap;
+       }
+       .blogs{
+           width: 90%;
+           justify-content: center;
+           display: flex;
+           flex-direction: row;
+           justify-content: center;
+           align-items: center;
+           margin-left: 4%;
+       }
+       .blogs img{
+           height:160px;
+           width: 30%;
+       }
+   
+       .main-input form{
+           padding: 20px;
+           width: 100%;
+           position: relative;
+           /* display: grid;
+          grid-template-columns: 80% 80%;
+          grid-template-rows: 30% 30%;   */
+          display: flex;
+          flex-direction: column;
+       flex-wrap: wrap;
+       justify-content: center;
+       }
+   
+       .ab{
+           display: flex;
+           flex-direction: column;
+           position: relative;
+           width: 100%;
+       }
+       .ab textarea{
+       /* height: 200px; */
+       border: none;
+       background: rgb(238, 227, 227);
+       position: absolute;
+       left: -26%;
+       width: 100%;
+       }
+       .cb{
+           position: absolute;
+           top: 110%;
+           left: -15%;
+           font-size: 0.9rem;
+       }
+       #contact{
+           width: 100%;
+        
+       }
+       .main-contact{
+           padding: 10px 0;
+           display: flex;
+           background: #fff;
+           justify-content: center;
+           position: relative;
+           margin: 50px 50px;
+           height: 650px;
+       }
+       .ab button{
+           width: 200px;
+           margin-left: 85px;
+           margin-top: 80px;
+          position: relative;
+          top: 130px;
+          left: -25%;
+       }
+       .mail-contact{
+           width: 92%;
+           display: flex;
+          flex-direction: column;
+           margin: 40px;
+           flex-wrap: wrap;
+           justify-content: center;
+           align-items: center;
+       
+       }
+       .between{
+           background: #fff; 
+           padding: 30px;
+           display: flex;
+           flex-basis: 10%;
+           border-radius: 10px;
+           margin-top: 10px;
+           flex-wrap: wrap;
+           width: 60%;
+       }
+       #footer {
+           font-size: 0.8rem;
+           background: #8c00ff;
+       }
+       #footer a{
+           font-size: 1.4rem;
+       }
+       .main-header img{
+          
+               background: linear-gradient(rgb(160, 39, 201),rgb(189, 32, 32) );
+         
+           flex-basis: 5%;
+           width: 97%;
+       }
+       .menu{
+           display: block;
+       }
+   
+   }
